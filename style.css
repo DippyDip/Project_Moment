@@ -74,7 +74,7 @@ body {
 }
 .logo-container-bg {
   padding: 8px;
-  background-color: rgb(223, 223, 223);
+  background-color: white;
 }
 
 @keyframes animate {
@@ -117,7 +117,7 @@ body {
 .cls-5,
 .cls-7,
 .cls-9 {
-  stroke: rgb(0, 0, 0);
+  stroke: rgba(0, 0, 0, 0.945);
   stroke-miterlimit: 10;
 }
 
