@@ -1,0 +1,218 @@
+/* parallax */
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.main-container {
+  color: white;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.parallax {
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parallax,
+.parallax:before {
+  background: 50% 50% / cover;
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  background: url("./parallax-bg.jpg") center;
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+}
+
+.sub-container {
+  z-index: 2;
+  position: absolute;
+  top: 100vh;
+  background: black;
+  line-height: 30px;
+  font-weight: lighter;
+  padding: 40px;
+  color: grey;
+}
+
+/* stroke */
+.logo-container {
+  width: 500px;
+}
+
+.cls-1,
+.cls-12,
+.cls-3,
+.cls-5,
+.cls-7,
+.cls-9 {
+  fill: none;
+}
+
+.cls-2 {
+  clip-path: url(#clip-path);
+}
+
+.cls-12,
+.cls-3,
+.cls-5,
+.cls-7,
+.cls-9 {
+  stroke: rgb(255, 255, 255);
+  stroke-miterlimit: 10;
+}
+
+.cls-3 {
+  stroke-width: 40px;
+}
+
+.cls-4 {
+  clip-path: url(#clip-path-2);
+}
+
+.cls-5 {
+  stroke-width: 35px;
+}
+
+.cls-6 {
+  clip-path: url(#clip-path-3);
+}
+
+.cls-7 {
+  stroke-width: 38px;
+}
+
+.cls-8 {
+  clip-path: url(#clip-path-4);
+}
+
+.cls-9 {
+  stroke-width: 37px;
+}
+
+.cls-10 {
+  clip-path: url(#clip-path-5);
+}
+
+.cls-11 {
+  clip-path: url(#clip-path-6);
+}
+
+.cls-12 {
+  stroke-width: 30px;
+}
+
+/* make changes from here */
+
+#sub-h1 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+}
+#sub-h2 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 100ms;
+}
+#sub-h3 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 200ms;
+}
+#sub-e1 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 1000ms;
+}
+#sub-e2 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 600ms;
+}
+#sub-e3 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 800ms;
+}
+#sub-l1 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 1500ms;
+}
+#sub-l2 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 1800ms;
+}
+#sub-o1 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 2000ms;
+}
+#sub-ex1 {
+  stroke-dasharray: 2600;
+  stroke-dashoffset: 2600;
+  stroke-width: 40;
+  animation: letter-animation 2000ms linear forwards;
+  animation-delay: 2400ms;
+}
+
+@keyframes letter-animation {
+  0% {
+    stroke-dashoffset: 2600;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* lorem ipsum */
