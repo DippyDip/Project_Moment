@@ -69,7 +69,34 @@ body {
 
 /* stroke */
 .logo-container {
-  width: 500px;
+  animation: animate 800ms linear 300ms;
+  animation-fill-mode: both;
+}
+.logo-container-bg {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(85deg);
+    width: 10vw;
+    opacity: 0%;
+  }
+  30% {
+    transform: rotateX(85deg);
+    width: 10vw;
+    opacity: 100%;
+  }
+  50%,
+  80% {
+    transform: rotateX(85deg);
+    width: 50vw;
+  }
+  100% {
+    transform: rotateX(0deg);
+    width: 50vw;
+  }
 }
 
 .cls-1,
@@ -141,69 +168,70 @@ body {
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
+  animation-delay: 1200ms;
 }
 #sub-h2 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 100ms;
+  animation-delay: 1400ms;
 }
 #sub-h3 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 200ms;
+  animation-delay: 1600ms;
 }
 #sub-e1 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 1000ms;
+  animation-delay: 2200ms;
 }
 #sub-e2 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 600ms;
+  animation-delay: 1800ms;
 }
 #sub-e3 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 800ms;
+  animation-delay: 2000ms;
 }
 #sub-l1 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 1500ms;
+  animation-delay: 2600ms;
 }
 #sub-l2 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 1800ms;
+  animation-delay: 2900ms;
 }
 #sub-o1 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
   animation: letter-animation 2000ms linear forwards;
-  animation-delay: 2000ms;
+  animation-delay: 3200ms;
 }
 #sub-ex1 {
   stroke-dasharray: 2600;
   stroke-dashoffset: 2600;
   stroke-width: 40;
-  animation: letter-animation 2000ms linear forwards;
-  animation-delay: 2400ms;
+  animation: letter-animation 1500ms linear forwards;
+  animation-delay: 3600ms;
 }
 
 @keyframes letter-animation {
