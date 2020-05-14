@@ -23,8 +23,7 @@ body {
   position: relative;
   transform-style: inherit;
   width: 100vw;
-  text-align: center;
-  text-transform: uppercase;
+  box-shadow: inset 0px -20px 20px black;
 }
 
 .header {
@@ -291,3 +290,15 @@ body {
 img {
   display: block;
 }
+
+/* After thee intro */
+.hr-line {
+  border-width: 8px;
+  border-left: 0;
+  border-bottom: 0;
+  border-right: 0;
+  border-top-style: dashed;
+  width: 25%;
+}
+
+/* gallery flex */
