@@ -23,7 +23,7 @@ body {
   position: relative;
   transform-style: inherit;
   width: 100vw;
-  box-shadow: inset 0px -20px 20px black;
+  box-shadow: inset 0px -150px 200px black;
   animation: fadein 800ms linear 4200ms;
   animation-fill-mode: backwards;
 }
@@ -33,7 +33,7 @@ body {
     box-shadow: inset 0px -2000px 20px rgb(0, 0, 0);
   }
   100% {
-    box-shadow: inset 0px -20px 20px rgb(0, 0, 0);
+    box-shadow: inset 0px -150px 200px black;
   }
 }
 
