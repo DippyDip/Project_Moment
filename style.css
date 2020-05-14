@@ -258,11 +258,11 @@ body {
   perspective: 500px;
 }
 
-.card-container:hover .card {
+.card-container:hover .info {
   transform: rotateY(180deg);
 }
 
-.card {
+.info {
   transition: transform 0.7s;
   transform-style: preserve-3d;
 }
@@ -283,7 +283,7 @@ body {
   justify-content: center;
 }
 
-.card {
+.info {
   width: 250px;
   height: 350px;
   margin: 10px;
@@ -313,8 +313,7 @@ img {
 }
 
 /* gallery flex */
-
-.cards {
+.gallery-container {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -375,22 +374,6 @@ img {
       padding-top: 66.6%; // 3:2 aspect ratio
     }
   }
-}
-
-.card__image--flowers {
-  background-image: url(https://unsplash.it/800/600?image=82);
-}
-
-.card__image--river {
-  background-image: url(https://unsplash.it/800/600?image=11);
-}
-
-.card__image--record {
-  background-image: url(https://unsplash.it/800/600?image=39);
-}
-
-.card__image--fence {
-  background-image: url(https://unsplash.it/800/600?image=59);
 }
 
 .card__title {
