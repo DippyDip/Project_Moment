@@ -301,9 +301,46 @@ body {
   top: 0;
   bottom: 0;
 }
-
-img {
+.front {
+  background-image: url("./images/pfp2.jpg");
+  background-size: cover;
+}
+.back {
+  background-size: cover;
+  background-color: black;
+}
+.front h1 {
   display: block;
+  width: 90%;
+  height: 40px;
+  box-shadow: 0px 0px 5px #00000056;
+  background-color: #343334;
+  border: 0;
+  margin-left: 0px;
+  margin-top: 33px;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  color: #605f60;
+  text-align: center;
+  line-height: 2;
+}
+.back h1 {
+  display: block;
+  width: 90%;
+  height: 40px;
+  box-shadow: 0px 0px 5px #00000056;
+  background-color: #343334;
+  border: 0;
+  margin-left: 0px;
+  margin-top: 33px;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  color: #605f60;
+  text-align: center;
+  line-height: 2;
+  float: right;
 }
 
 /* After thee intro */
@@ -365,7 +402,6 @@ img {
   height: auto;
   margin: 0;
   padding: 30px 18px;
-  overflow-y: ;
 }
 #email {
   display: block;
