@@ -74,8 +74,10 @@ body {
   background: #343334;
   line-height: 30px;
   font-weight: lighter;
-  padding: 40px;
   color: #605f60;
+}
+.sub-container p {
+  padding: 30px;
 }
 
 /* stroke */
@@ -282,6 +284,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .info {
@@ -333,28 +336,29 @@ img {
 
 .form-container {
   display: flex;
-  flex-flow: wrap row-reverse;
-  min-height: 80vh;
+  flex-flow: wrap row;
+  min-height: 50vh;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 
 .form {
-  width: 350px;
+  width: 80%;
   height: 500px;
   border-radius: 20px;
   box-shadow: 0px 0px 15px #171617;
-  margin-right: 10vw;
 }
 .form-elements {
   display: block;
   position: relative;
-  padding: 10px;
 }
 .footer {
   display: flex;
   height: 100%;
   background-color: #252525;
-  box-shadow: 0px 0px 15px #171617;
+  padding: 0px 20px;
+}
+.footer p {
   padding: 0px 20px;
 }
