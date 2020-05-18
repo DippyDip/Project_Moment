@@ -394,6 +394,58 @@ body {
 .card-item:hover {
   transform: scale(1.1);
 }
+.card1 {
+  background-image: url("./images/images1.jpg");
+  background-size: cover;
+}
+.card2 {
+  background-image: url("./images/images1.jpg");
+  background-size: cover;
+}
+.card3 {
+  background-image: url("./images/images1.jpg");
+  background-size: cover;
+}
+.card4 {
+  background-image: url("./images/images1.jpg");
+  background-size: cover;
+}
+
+.on-hover {
+  opacity: 0%;
+  height: 100%;
+  background-color: #00000069;
+  backdrop-filter: blur(1.5px);
+  transition-duration: 350ms;
+}
+.on-hover h3,
+.on-hover p {
+  margin: 0;
+  padding: 20px 30px 0px 30px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.on-hover:hover {
+  opacity: 100%;
+}
+.on-hover a {
+  display: block;
+  background: rgba(0, 0, 0, 0.781);
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  width: 50%;
+  margin: 120px auto;
+  transition-duration: 350ms;
+}
+
+.on-hover a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
 
 /* newsletter form */
 .form-container {
