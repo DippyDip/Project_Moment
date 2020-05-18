@@ -508,7 +508,7 @@ body {
   font-size: larger;
   font-style: italic;
   font-weight: bold;
-  color: blueviolet;
+  color: var(--sub-text);
 }
 #submit {
   margin: 30px 0px;
