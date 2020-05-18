@@ -309,8 +309,9 @@ body {
   color: var(--card-front);
 }
 .front {
-  background-image: url("./images/pfp2.jpg");
+  background-image: url("./images/smokin.gif");
   background-size: cover;
+  background-position: canter top;
 }
 .back {
   background-size: cover;
@@ -323,7 +324,7 @@ body {
   background-color: #27496d;
   border: 0;
   margin-left: 0px;
-  margin-top: 33px;
+  margin-top: 270px;
   font-size: larger;
   font-style: italic;
   font-weight: bold;
@@ -424,7 +425,6 @@ body {
   backdrop-filter: blur(1.5px);
   transition-duration: 350ms;
 }
-.on-hover h3,
 .on-hover p {
   margin: 0;
   padding: 20px 30px 0px 30px;
@@ -432,9 +432,13 @@ body {
   text-decoration: none;
 }
 .on-hover h3 {
-  text-decoration: underline;
-  text-decoration-color: #2980b9;
-  text-decoration-thickness: 5px;
+  display: block;
+  padding: 20px 0 20px 0;
+  background-color: var(--shadow);
+  text-align: center;
+  color: var(--sub-text);
+  text-decoration: none;
+  margin: 0;
 }
 
 .on-hover:hover {
@@ -442,7 +446,7 @@ body {
 }
 .on-hover a {
   display: block;
-  background: var(--card-front);
+  background: #27496d;
   text-decoration: none;
   color: var(--sub-text);
   padding: 10px;
@@ -454,7 +458,7 @@ body {
 }
 
 .on-hover a:hover {
-  background-color: var(--sub-text);
+  background-color: #ca3e47;
   color: black;
 }
 
@@ -474,9 +478,11 @@ body {
   border-radius: 20px;
   box-shadow: 0px 0px 15px #000000;
   display: block;
+  background-color: var(--card-front);
 }
 .form-elements {
   height: 100%;
+  color: var(--sub-text);
 }
 .form h1 {
   text-align: center;
@@ -502,7 +508,7 @@ body {
   font-size: larger;
   font-style: italic;
   font-weight: bold;
-  color: var(--sub-text);
+  color: blueviolet;
 }
 #submit {
   margin: 30px 0px;
@@ -524,9 +530,18 @@ body {
 .footer {
   display: flex;
   height: 100%;
-  background-color: #252525;
+  background-color: #343031;
   padding: 0px 20px;
+  align-items: center;
+  justify-content: center;
 }
 .footer p {
   padding: 0px 20px;
+}
+.bg-gif {
+  display: block;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+  margin: auto;
 }
