@@ -83,7 +83,8 @@ body {
   color: var(--sub-text);
 }
 .sub-container p {
-  padding: 30px;
+  padding: 30px 100px;
+  text-align: center;
 }
 
 /* stroke */
@@ -402,19 +403,19 @@ body {
   transform: scale(1.1);
 }
 .card1 {
-  background-image: url("./images/images1.jpg");
+  background-image: url("./images/Mahabalipuram/img9.jpg");
   background-size: cover;
 }
 .card2 {
-  background-image: url("./images/images1.jpg");
+  background-image: url("./images/Mahabalipuram/img10.jpg");
   background-size: cover;
 }
 .card3 {
-  background-image: url("./images/images1.jpg");
+  background-image: url("./images/Mahabalipuram/img14.jpg");
   background-size: cover;
 }
 .card4 {
-  background-image: url("./images/images1.jpg");
+  background-image: url("./images/Mahabalipuram/img17.jpg");
   background-size: cover;
 }
 
@@ -422,7 +423,6 @@ body {
   opacity: 0%;
   height: 100%;
   background-color: #000000a1;
-  backdrop-filter: blur(1.5px);
   transition-duration: 350ms;
 }
 .on-hover p {
